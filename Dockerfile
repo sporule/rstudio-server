@@ -1,5 +1,4 @@
-FROM rocker/rstudio:3.6.2
-
+FROM rocker/rstudio:latest
 
 RUN apt-get update && apt-get install -y wget unixodbc-dev procps vim unzip git
 

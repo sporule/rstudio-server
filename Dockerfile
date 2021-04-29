@@ -1,5 +1,8 @@
 FROM rocker/rstudio:latest
+<<<<<<< HEAD
 
+=======
+>>>>>>> 56e5d625dec87d39c8a7c09b8265560a3afc27c5
 
 RUN apt-get update && apt-get install -y gnupg2 apt-utils wget unixodbc-dev procps vim unzip git curl
 
